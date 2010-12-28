@@ -12,7 +12,7 @@ Conventions
 -----------
 
 - Each slide is a <div class="slide">
-- Each slide has a background image (class = "background")
+- Each slide has a background image (class = "img_background")
 - 5 classes to position text.  
  - tr_quote (top right)
  - tl_quote (top left)
