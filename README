@@ -1,0 +1,42 @@
+Takahashi-Slides
+
+Description 
+-----------
+Takahashi-Slides is an extension to slidy to let geeks write presentations easily that dont look like crap.
+
+Live demo:  http://thepivot.heroku.com
+
+I wrote this extension after getting frustrated with Keynote.
+
+Conventions
+-----------
+
+- Each slide is a <div class="slide">
+- Each slide has a background image (class = "background")
+- 5 classes to position text.  
+ - tr_quote (top right)
+ - tl_quote (top left)
+ - br_quote (bottom right)
+ - bl_quote (bottom left)
+ - c_quote (center)
+- One offs for positioning can be done inline.
+
+
+Create your own
+-----------
+
+- Clone the project
+- find background images
+- modify index.html with content
+
+
+Credits
+-----------
+The inline content was for a talk I gave at Startup Mixology called "The Pivot" 
+Startup Mixology  - http://startupmixology.techcocktail.com/2010-chicago/
+Video of the talk - http://www.youtube.com/watch?v=O26WoN6qvfw
+
+Takahashi Method  - http://en.wikipedia.org/wiki/Takahashi_method
+slidy             - http://www.w3.org/Talks/Tools/Slidy2/#(1)
+
+

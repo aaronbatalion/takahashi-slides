@@ -1,0 +1,59 @@
+body
+{
+  font-family: "Rockwell Bold", "Rockwell", sans-serif;
+}
+
+div.toolbar {
+	color:#fff;
+	height:22px;
+	font-size:1.2em;
+}
+
+
+div.toolbar-left a {display:none;}
+
+#slide-counter {
+	font-size:2em;
+}
+
+#eos {display:none;}
+
+
+
+div.slide {padding:2%;clear:both;position:absolute;}
+
+div.slide p,
+div.slide div {
+  padding:15px 30px;
+  background:#4A4949;
+  opacity:0.85;
+  display:inline-block; 
+  color:#fff;
+}
+
+div.slide p {
+	font-size:220%;
+	line-height:100%;
+	-moz-box-shadow:8px 9px 5px #030303;
+	-moz-border-radius: 10px;}
+
+div.cover .cover-box {
+  margin:100px 50px;
+  font-size:100%;
+  opacity: 0.85;
+  -moz-box-shadow:8px 9px 5px #030303;
+  -moz-border-radius: 10px;
+}
+
+div.slide p.tl_quote { position:absolute; top:3%; left:3%; }
+div.slide p.bl_quote { position:absolute; bottom:3%; left:3%; }
+div.slide p.tr_quote { position:absolute; top:3%; right:3%; }
+div.slide p.br_quote { position:absolute; right:3%; bottom:3%; }
+div.slide p.c_quote  { position:absolute; top:40%; left:25%; }
+
+div.cover .cover-box h1 { font-size:370%;margin:0px 0px 10px 0px;padding:0px; }
+div.cover .cover-box h2 { font-size:270%;margin:0px 0px 50px 40px;padding:0px; }
+div.cover .cover-box h3 { font-size:200%;margin:21px 0px 0px 0px;padding:0px; text-align:right;}
+
+div.slide .img_background {opacity:.77;top: 0px; left: 0px; min-height: 950px; width:100%; overflow:hidden; position:fixed; z-index:-1; -moz-user-select: none}
+div.slide .img_background img {opacity:1;position:absolute; left:0px; top:0px; z-index:-2; min-width: 1200px; min-height:800px;width: 100%}
